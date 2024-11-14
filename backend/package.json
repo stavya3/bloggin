@@ -5,7 +5,7 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
-    "@powerfulquarter/medium-blog": "^1.0.0",
+    "@powerfulquarter/medium-blog": "^1.0.5",
     "@prisma/client": "^5.22.0",
     "@prisma/extension-accelerate": "^1.2.1",
     "hono": "^4.6.9",
