@@ -14,7 +14,7 @@ const BlogCard = ({
     publishedDate
 }: BlogCardProps) => {
   return (
-    <div className=" p-4 border-b border-slate-300">
+    <div className=" p-4 border-b border-slate-300 w-screen max-w-screen-md">
         <div className="flex">
             <div className="flex justify-center flex-col">
                 <Avatar size={"small"} name={authorName} /> 

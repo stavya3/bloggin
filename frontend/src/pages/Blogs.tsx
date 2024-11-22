@@ -17,10 +17,10 @@ const Blogs = () => {
       <AppBar />
     <div className='flex justify-center'>
       
-      <div className='max-w-xl'>
+      <div>
               
         {blogs.map(blog => <BlogCard
-            authorName={blog.author.name}
+            authorName={"Stavya"}
             title={blog.title}
             content={blog.content}
             publishedDate={"2nd Feb 2024"}
