@@ -20,6 +20,7 @@ const Blogs = () => {
       <div>
               
         {blogs.map(blog => <BlogCard
+            id={blog.id}
             authorName={"Stavya"}
             title={blog.title}
             content={blog.content}
