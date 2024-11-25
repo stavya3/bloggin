@@ -8,7 +8,7 @@ const Blog = () => {
   const { loading, blog } = useBlog({
     id: id || ""
   });
-  if (loading){
+  if (loading || !blog){
     return <div className="flex flex-col items-center justify-center">
       <BlogSkeleton />
       <BlogSkeleton />
