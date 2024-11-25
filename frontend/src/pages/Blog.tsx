@@ -1,3 +1,4 @@
+import BlogSkeleton from "../components/BlogSkeleton";
 import FullBlog from "../components/FullBlog";
 import { useBlog } from "../hooks"
 import { useParams } from "react-router-dom";
@@ -8,7 +9,11 @@ const Blog = () => {
     id: id || ""
   });
   if (loading){
-    return <div>loading...</div>
+    return <div className="flex flex-col items-center justify-center">
+      <BlogSkeleton />
+      <BlogSkeleton />
+      <BlogSkeleton />
+    </div>
   }
   return (
     <div>
